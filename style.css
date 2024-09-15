@@ -5,6 +5,7 @@
 }
 body {
   background-color: #161d6f;
+  overflow-y: hidden;
 }
 
 .winner {

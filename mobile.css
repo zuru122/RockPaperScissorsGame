@@ -1,7 +1,19 @@
 @media (max-width: 768px) {
   /* CSS styles for screens smaller than 768px (e.g., tablets, mobile) */
   body {
-    background-color: lightblue;
+    /* width: 100vh; */
+    background-color: #161d6f;
+    overflow-y: hidden;
+  }
+  .main {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user-selection {
+    margin-top: 50px;
   }
 
   .choices {
