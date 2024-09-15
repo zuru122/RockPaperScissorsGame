@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+  /* CSS styles for screens smaller than 768px (e.g., tablets, mobile) */
+  body {
+    background-color: lightblue;
+  }
+
+  .choices {
+    width: 350px;
+  }
+
+  .user-choice,
+  .computer-choice {
+    height: 150px;
+    margin-bottom: 10px;
+  }
+
+  .result {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+
+  .result-content {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+  }
+
+  img {
+    width: 40px;
+  }
+
+  .score p {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+  }
+  h1 {
+    margin-top: 10px;
+    font-size: 18px;
+    /* line-height: 2; */
+    text-align: center;
+  }
+  nav {
+    padding: 10px;
+  }
+
+  #result {
+    font-size: 16px;
+  }
+
+  .winner .winner-message {
+    font-size: 18px;
+  }
+}
