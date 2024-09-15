@@ -4,6 +4,7 @@ const resultDisplay = document.getElementById("result");
 const main  = document.querySelector("main");
 const  nav = document.querySelector("nav");
 const winner = document.querySelector(".winner");
+const  startGame = document.querySelector(".opening-message");
 
 
 
@@ -131,4 +132,13 @@ reset.addEventListener("click", ()=>{
     resultDisplay.innerHTML = "RESULT";
     userChoiceDisplay.innerHTML = "";
     computerChoiceDisplay.innerHTML  = "";
+})
+
+
+const start = document.querySelector(".btn-next")
+start.addEventListener("click", ()=>{
+    main.style.display = "flex";
+    nav.style.display =  "flex";
+    startGame.style.display = "none";
+
 })

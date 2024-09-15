@@ -4,6 +4,21 @@
     /* width: 100vh; */
     background-color: #161d6f;
     overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  .opening-message {
+    width: 300px;
+  }
+  .message p {
+    font-size: 12px;
+  }
+
+  ul,
+  ol {
+    font-size: 10px;
+  }
+  h3 {
+    font-size: 12px;
   }
   .main {
     height: 100%;

@@ -5,9 +5,74 @@
 }
 body {
   background-color: #161d6f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   overflow-y: hidden;
+  overflow-x: hidden;
+
+  color: #7085f8;
+}
+.padding-bottom {
+  padding-bottom: 20px;
+}
+h3 {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.opening-message {
+  color: #7085f8;
+  display: flex;
+  width: 750px;
+  margin: 0 auto;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
 }
 
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.message p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* color: #161d6f; */
+  color: #7085f8;
+}
+.hr {
+  border-top: 1px solid #7085f8;
+  width: 100%;
+  margin-bottom: 5px;
+}
+.rules-header {
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-weight: 600;
+  color: #fff;
+}
+ul {
+  font-size: 14px;
+}
+
+.btn-next {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  color: #161d6f;
+  font-weight: 600;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+button:hover {
+  background-color: #7085f8;
+  color: #fff;
+}
 .winner {
   display: none;
   flex-direction: column;
@@ -30,7 +95,7 @@ body {
 }
 main {
   height: 100vh;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 }
@@ -38,7 +103,7 @@ main {
 nav {
   background-color: #0b2f9f;
   /* height: 60px; */
-  display: flex;
+  display: none;
   gap: 10px;
   justify-content: center;
   align-items: center;
