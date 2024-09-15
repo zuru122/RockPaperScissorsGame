@@ -4,15 +4,72 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scisors Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h2>Computer Choice: <span id="computer-choice"></span></h2>
+    <div class="winner">
+      <div class="winner-message">WINNER</div>
+
+      <button class="restart">REPLAY</button>
+    </div>
+    <div class="game">
+      <nav>
+        <p>PLAYER SCORE</p>
+        <div class="score">
+          <p id="user">0</p>
+        </div>
+        <div class="score">
+          <p id="comp">0</p>
+        </div>
+        <p>COMPUTER SCORE</p>
+      </nav>
+
+      <main>
+        <div class="container">
+          <div class="choices">
+            <div class="user-choice flex-content">
+              <h1>USER CHOICE</h1>
+              <div id="user-choice" class="user-seleted-choice box"></div>
+            </div>
+            <div class="result">
+              <div id="result" class="result-content">RESULT</div>
+            </div>
+            <div class="computer-choice flex-content">
+              <h1>COMPUTER CHOICE</h1>
+              <div id="computer-choice" class="comp-selected-choice box"></div>
+            </div>
+          </div>
+
+          <div class="user-selection">
+            <button class="btn" id="Rock">
+              <span>Rock</span>
+              <img src="img/Rock.png" alt="rock" width="100px" />
+            </button>
+            <button class="btn" id="Paper">
+              <span>Paper</span>
+              <img src="img/Paper.png" alt="paper" width="100px" />
+            </button>
+            <button class="btn" id="Scissors">
+              <span>Scisors</span>
+              <img src="img/Scissors.png" alt="rock" width="100px" />
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+    <!-- <h2>Computer Choice: <span id="computer-choice"></span></h2>
     <h2>Your Choice: <span id="user-choice"></span></h2>
     <h2>Result: <span id="result"></span></h2>
 
     <button id="Rock">Rock</button>
     <button id="Paper">Paper</button>
-    <button id="Scissors">Scissors</button>
+    <button id="Scissors">Scissors</button> -->
 
     <script src="app.js"></script>
   </body>

@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #161d6f;
+}
+
+.winner {
+  display: none;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.winner .winner-message {
+  font-family: "Press Start 2P";
+  color: #fff;
+  font-size: 52px;
+  margin-bottom: 30px;
+}
+.winner button {
+  padding: 10px 40px;
+  font-family: "Press Start 2P";
+  color: #161d6f;
+  cursor: pointer;
+}
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  background-color: #0b2f9f;
+  /* height: 60px; */
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  font-family: "Press Start 2P";
+  color: #fff;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+}
+.score p {
+  color: #000;
+  font-size: 24px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#user-choice,
+#computer-choice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  font-family: "Press Start 2P";
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.choices {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 750px;
+  background-color: #0b2f9f;
+  margin: 0 auto;
+  border: 2px solid #98ded9;
+}
+
+.user-choice {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+}
+
+.user-selection img {
+  width: 50px;
+}
+
+.user-selection button img {
+  pointer-events: none;
+}
+
+.user-selection button span {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  pointer-events: none;
+}
+.user-selection {
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+}
+.user-selection button {
+  background-color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+}
+
+/* helper  class */
+.flex-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Result Div */
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
